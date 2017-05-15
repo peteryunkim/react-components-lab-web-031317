@@ -33,7 +33,8 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ];
 
-// const products = BUTCHER_PRODUCTS.map(function(meat){
+//    This works too!
+// const products = BUTCHER_PRODUCTS.map(function(meat){ 
 //   return React.createElement('li', {}, meat)
 // })
 
