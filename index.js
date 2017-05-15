@@ -32,9 +32,12 @@ const BUTCHER_PRODUCTS = [
   'Beef shin',
   'Ribeye'
 ];
-const products = BUTCHER_PRODUCTS.map(function(meat){
-  return React.createElement('li', {}, meat)
-})
+
+// const products = BUTCHER_PRODUCTS.map(function(meat){
+//   return React.createElement('li', {}, meat)
+// })
+
+const products = BUTCHER_PRODUCTS.map(meat => React.createElement('li', {}, meat))
 
 class ButcherShop extends React.Component {
   render(){
